@@ -1,7 +1,7 @@
 @media only screen and (max-width: 500px){
-    
+/*-----NAV-----*/   
 ul.topnav li {float: none;}
-    
+/*-----IMAGES-----*/    
 .h1centered {font-size: 20px}
 
 .pcentered {font-size: 10px}
