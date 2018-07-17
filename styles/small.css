@@ -2,6 +2,13 @@
     
 ul.topnav li {float: none;}
     
-.prev, .next {font-size: 11px}
+.h1centered {font-size: 20px}
+
+.pcentered {font-size: 10px}
+    
+.bicyclecenter {
+    top: 5%;
+    font-size: 20px
+}
     
 }
