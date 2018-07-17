@@ -2,4 +2,6 @@
     
 ul.topnav li {float: none;}
     
+.prev, .next {font-size: 11px}
+    
 }

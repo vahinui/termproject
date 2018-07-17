@@ -11,13 +11,17 @@
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
+        
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    
+    
        
     </head>
     
     <body>
     <!-----HEADER----->
     <header>
-    <img src="images/s-logo.png" alt="logo" class="center">        
+    <img href="" src="images/s-logo.png" alt="logo" class="center">        
     </header>
         
     <!-----NAVIGATION----->
@@ -32,12 +36,53 @@
     </ul>
         
     <!------CONTENT----->
-    <a href=""><img src="images/tours.jpg"></a>
+    
+    <!-----SLIDER----->
+    <div class="slideshow-container">
+    <!-----IMAGE----->
+    <div class="Slide">
+        <img src="images/img_nature_wide.jpg" style="width: 100%"> 
+    </div>
+    
+    <div class="Slide">
+        <img src="images/img_snow_wide.jpg" style="width: 100%"> 
+    </div>
+        
+    <div class="Slide">
+        <img src="images/img_mountains_wide.jpg" style="width: 100%"> 
+    </div>
+    <!-----NEXT & PREVIOUS BUTTON----->
+    <a class="prev" onlcick="plussSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        
+    </div>
         
     <!-----FOOTER----->
+    <footer class="footer">
+      
+        <div class="bottom1">
+                        
+            &copy;2018 The Mountain Spoke. All Rights Reserved.
         
+        </div> 
+        
+        <div class="bottom">
+            <h3>Contact Us:</h3>
+            <p>Office: (800) 000-00001</p>
+            <p>Fax:(800) 001-0001</p>
+            <p>P.O. Box 801 Montana, ID 0001</p>
+
+        
+        
+        </div>
         
     
+          
+    </footer>        
+    
     </body>
+    
+    <link href="scripts/slide.js">
 
 </html>
