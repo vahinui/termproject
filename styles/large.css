@@ -1,3 +1,11 @@
 @media only screen and (min-width: 900px){
 
+.h1centered {
+    font-size: 45px;     
+}
+    
+.pcentered {
+    font-size: 20px;    
+}    
+
 }
